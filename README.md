@@ -7,7 +7,7 @@ A LaTeX template for the CV for DFG (Deutsche Forschungsgemeinschaft, German Res
 
 ## Usage
 
-Simply update the content in [`CV_Publist_name.tex`](CV_Publist_name.tex) and
+Simply update the content in [`CV_PubList_name.tex`](CV_PubList_name.tex) and
 compile the document using `pdflatex` and `biber` (for the bibliography).
 
 Do not forget to change the name of the document to _your_ last name.
