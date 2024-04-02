@@ -41,6 +41,9 @@
 \RequirePackage{scrlayer-scrpage}
 \RequirePackage{lastpage}
 
+\RedeclareSectionCommand[afterskip=.5em plus .5em minus .5em]{section}
+\RedeclareSectionCommand[afterskip=.5em plus .5em minus .5em]{subsection}
+
 \geometry{headheight=28pt, tmargin=70pt, lmargin=55pt, rmargin=55pt, bmargin=70pt}
 
 \renewcommand*{\pagemark}{\GetTranslation{page}~\thepage~\GetTranslation{of}~\pageref{LastPage}} %\pageref{LastPage}
